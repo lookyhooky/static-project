@@ -1,0 +1,23 @@
+{
+  "id": "cranes",
+  "route": "/cranes.html",
+  "nav": "Cranes",
+  "title": "Cranes",
+  "description": "Hooks Crane Service Equipment Details",
+  "cranes": [
+    {
+      "title": "Grove TMS375LP",
+      "capacity": "45 Ton",
+      "boom": "89'",
+      "jib": "125'",
+      "pdf": "23098_spec.pdf"
+    },
+    {
+      "title": "LinkBelt HTC8660II",
+      "capacity": "60 Ton",
+      "boom": "110'",
+      "jib": "160'",
+      "pdf": "L8+_spec.pdf"
+    }
+  ]
+}

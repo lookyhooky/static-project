@@ -1,0 +1,44 @@
+<h1 class="center">Cranes</h1>
+<table class="u-full-width">
+    <thead>
+        <tr>
+            <th></th>
+            {{#cranes}}
+                <th>{{title}}</th>
+            {{/cranes}}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Capacity</th>
+            {{#cranes}}
+                <td>{{capacity}}</td>
+            {{/cranes}}
+        </tr>
+        <tr>
+            <th>Boom</th>
+            {{#cranes}}
+                <td>{{boom}}</td>
+            {{/cranes}}
+        </tr>
+        <tr>
+            <th>Boom + Jib</th>
+            {{#cranes}}
+                <td>{{jib}}</td>
+            {{/cranes}}
+        </tr>
+        <tr>
+            <th>Specs & Chart</th>
+            {{#cranes}}
+                <td><a href="/pdfs/{{pdf}}" target="_blank">pdf</a></td>
+            {{/cranes}}
+        </tr>
+        {{!
+        <tr>
+        <th>Annual Inspection</th>
+        <td><a href="/message?inspection=grove">Request</a></td>
+        <td><a href="/message?inspection=linkbelt">Request</a></td>
+        </tr>
+        }}
+    </tbody>
+</table>

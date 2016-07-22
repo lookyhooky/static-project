@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{description}}">
+        <meta name="author" content="John Hooks">
+
+        <title>
+            {{#title}}
+                {{title}} - Hooks Crane Service - Richland, WA
+            {{/title}}
+            {{^title}}
+                Hooks Crane Service - Richland, WA
+            {{/title}}
+        </title>
+        
+        {{! Fonts }}
+        <Link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        {{! Need to add 'company' as keyword }}
+
+        <link href="/style.css" rel="stylesheet">
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css"
+             rel="stylesheet">
+             <link href="https://npmcdn.com/basscss-btn@1.1.1/css/btn.css"
+             rel="stylesheet">
+             <link href="https://npmcdn.com/basscss-btn-primary@1.1.0/css/btn-primary.css"
+             rel="stylesheet">
+             <link href="https://npmcdn.com/basscss-colors@2.2.0/css/colors.css"
+             rel="stylesheet">
+             <link href="https://npmcdn.com/basscss-background-colors@2.1.0/css/background-colors.css"
+             rel="stylesheet">
+             <link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css"
+             rel="stylesheet"> -->
+
+        
+    </head>
+    
+    <body>
+
+        <div id="root" class="px3">
+
+            <header class="max-width-3 mx-auto">
+
+                {{#header}}
+                    {{>header}}
+                {{/header}}
+            
+                <nav class="center">
+                    {{>navbar}}
+                </nav>
+
+            </header>
+            
+            <main class="max-width-3 mx-auto mb4">
+                {{>page}}
+            </main>
+
+            <footer class="max-width-3 mx-auto mb4">
+                {{>footer}}
+            </footer>
+            
+        </div>
+        
+        <script src="main.js"></script>
+        
+    </body>
+</html>

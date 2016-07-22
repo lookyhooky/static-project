@@ -1,0 +1,17 @@
+{
+  "name": "static-project",
+  "version": "1.0.0",
+  "description": "Static Website Build Project.",
+  "main": "build.js",
+  "scripts": {
+    "build": "mkdir -p html && node build.js",
+    "clean": "rm -rf html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Hooks",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "mustache": "^2.2.1"
+  }
+}

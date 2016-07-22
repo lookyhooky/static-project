@@ -1,0 +1,7 @@
+{
+  "id": "scheduler",
+  "route": "/scheduler.html",
+  "nav": "Scheduler",
+  "title": "Scheduler",
+  "description": "Crane Scheduling Made Easy"
+}
